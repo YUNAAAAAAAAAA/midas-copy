@@ -91,7 +91,7 @@ nav > div:last-child > ul > li:last-child{
 main > div:first-child{
     width: 100%;    
     height: 571px;
-    background-image: url(http://inmidas.co.kr/files/2015/08/22/d6f3855473e6df4b8e9b31e11a588d28012915.jpg);
+    background-image: url("./images/d6f3855473e6df4b8e9b31e11a588d28012915.jpg");
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
@@ -144,7 +144,7 @@ main > div:nth-child(2) > div:last-child{
 main > div:nth-child(3){
     width: 100%;    
     height: 372px;
-    background-image: url(http://inmidas.co.kr/pages/home-menus/images/intro-bg1.jpg);
+    background-image: url("./images/intro-bg1.jpg");
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
@@ -219,7 +219,7 @@ main > div:nth-child(4) > div:last-child > div > div >img{
 main > div:nth-child(5){
     width: 100%;    
     height: 450px;
-    background-image: url(http://inmidas.co.kr/pages/home-menus/images/intro-bg2.jpg);
+    background-image: url("./images/intro-bg2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
