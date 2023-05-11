@@ -1,0 +1,423 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*--------------------reset code------------------*/
+
+header{
+    width: 100%;  height: 52px;
+    background-color: black;
+    color: white;
+}
+nav{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;  height: 52px;
+    justify-content: center;
+    align-items: center;
+}
+nav > div >{
+    display: flex;
+    justify-content: center;
+}
+
+nav > div:first-child{
+    font-size: 24px;
+    padding: 0 50px 0 0;
+}
+nav > div:nth-child(2) > ul{
+    display: flex;
+    padding: 0 20px;
+    gap: 80px;
+    font-size: 12px;
+}
+nav > div:last-child > ul{
+    display: flex;
+    padding: 0 0 0 200px;
+}
+nav > div:last-child > ul > li{
+    border-right: 2px solid gray;
+    font-size: 12px;
+    padding: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav > div:last-child > ul > li:last-child{
+    border-right: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*--------- 헤더부분 ----------*/
+
+main > div:first-child{
+    width: 100%;    
+    height: 571px;
+    background-image: url(http://inmidas.co.kr/files/2015/08/22/d6f3855473e6df4b8e9b31e11a588d28012915.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+}
+
+main > div:first-child > div:first-child{
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    width: 100%;
+    font-weight: bold;
+    
+}
+main > div:first-child > div:last-child{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 30%;
+    line-height: 1.5;
+}
+
+/*--------- 메인이미지 ----------*/
+
+main > div:nth-child(2){
+    width: 100%;
+    padding: 100px 0;
+}
+main > div:nth-child(2) > div:first-child{
+    text-align: center;
+    font-size: 14px;
+    margin: 0 0 35px;
+    font-weight: bold;
+}
+
+
+main > div:nth-child(2) > div:last-child{
+    text-align: center;
+    width: 1140px;
+    margin: 0 auto;
+    font-size: 17px;
+    line-height: 1.8;
+}
+/*--------- ABOUT MIDAS ----------*/
+
+main > div:nth-child(3){
+    width: 100%;    
+    height: 372px;
+    background-image: url(http://inmidas.co.kr/pages/home-menus/images/intro-bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+}
+
+main > div:nth-child(3) > div:first-child{
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    width: 100%;
+    font-weight: bold;   
+}
+
+main > div:nth-child(3) > div:last-child{
+    color: white;
+    font-size: 23px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    line-height: 1.8;
+}
+/*--------- WE ARE MIDAS ----------*/
+
+main > div:nth-child(4){
+    width: 100%;
+    padding: 100px 0;
+}
+
+main > div:nth-child(4) > div:first-child{
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+main > div:nth-child(4) > div:last-child{
+    width: 1170px;
+    height: 429px;
+    margin: 0 auto;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+main > div:nth-child(4) > div:last-child > div{
+    width: 360px;  height: 214px;
+    padding: 0 15px;
+}
+main > div:nth-child(4) > div:last-child > div > div >img{
+    width: 40px;  height: 45px;
+}
+
+.smallhead{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.read{
+    font-size: 15px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+/*--------- BUSSINESS ----------*/
+
+main > div:nth-child(5){
+    width: 100%;    
+    height: 450px;
+    background-image: url(http://inmidas.co.kr/pages/home-menus/images/intro-bg2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+}
+
+main > div:nth-child(5) > div:first-child{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    top: 21%;
+    width: 100%;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding-top: 120px;   
+    margin-bottom: 30px;
+}
+
+main > div:nth-child(5) > div:last-child{
+    width: 1170px;
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+    top: 35%;
+    margin: auto;
+}
+main > div:nth-child(5) > div:last-child > div{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 15px;
+    flex: 1;
+}
+
+main > div:nth-child(5) > div:last-child > div > p:first-child{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 10px;
+
+}
+main > div:nth-child(5) > div:last-child > div > p:last-child{
+    color: #999;
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+
+/*--------- CORPORATE IDENTITY ----------*/
+
+main > div:nth-child(6){
+    width: 100%;
+    padding: 100px 0;
+}
+
+main > div:nth-child(6) > div:first-child{
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+main > div:nth-child(6) > div:last-child{
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    
+}
+
+main > div:nth-child(6) > div:last-child > div{
+    width: 262px; height: 200px;
+}
+
+.icon > img{
+    width: 45px;  height: 45px;
+    object-fit: contain;
+}
+
+main > div:nth-child(6) > div:last-child > div > div:nth-child(2){
+    font-size: 18px;
+    font-weight: bold;
+}
+
+main > div:nth-child(6) > div:last-child > div > div:last-child{
+    font-size: 15px;
+    line-height: 1.5;
+    color: #999;
+}
+
+/*--------- PROCESS ----------*/
+
+main > div:nth-child(7){
+    background-color: #F5F5F5;
+    width: 100%;
+    padding: 65px 0 50px;
+    text-align: center;
+}
+main > div:nth-child(7) > p:first-child{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+main > div:nth-child(7) > p:last-child{
+    font-size: 23px;
+    line-height: 1.8;
+}
+
+/*--------- CONTACT US ----------*/
+
+main > div:last-child{
+    display: flex;
+    margin: 0 auto;
+    width: 1170px;
+    justify-content: space-around;
+    padding: 100px 0;
+}
+main > div:last-child > div:first-child > p:first-child{
+    margin-bottom: 20px;
+}
+main > div:last-child > div:first-child{
+    line-height: 2.0;
+}
+
+main > div:last-child > div:last-child >img{
+    width: 800px;  height: 450px;
+}
+
+/*--------- 위치 ----------*/
+
+section{
+    background-color: #F5F5F5;
+}
+section > form{
+    width: 1710px;
+    margin: 0 auto;
+}
+section > p{
+    margin: 0 auto;
+    width: 1170px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+form > ul{
+    text-align: center;
+}
+form > ul >li{
+    margin-bottom: 10px;
+}
+
+form > ul > li:first-child{
+    display: flex;
+    align-items: center;
+    margin: 0 auto 10px auto;
+    width: 947px;
+    justify-content: space-between;
+}
+textarea{
+    border: 1px solid gray;
+}
+
+section > div{
+    width: 960px;
+    margin: 0 auto;
+    text-align: end;
+}
+button{
+    height: 30px; width: 70px;
+    font-size: 14px;
+    font-weight: 800;
+    background-color: white;
+    border: 1px solid #999;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*--------- 메일보내기 ----------*/
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+    text-align: center;
+    color:#fff;
+    margin-top:50px;
+}
+
+footer > p{
+    line-height: 100px;
+}
+
+/*--------- footer ----------*/
